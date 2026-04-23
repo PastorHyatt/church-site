@@ -9,15 +9,17 @@
         body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; margin: 0; padding: 0; background-color: #f8f9fa; color: #1a1a1a; }
         header { background-color: #002D62; color: white; padding: 20px 0; position: sticky; top: 0; z-index: 1000; text-align: center; }
         nav a { color: white; text-decoration: none; margin: 0 15px; font-weight: 600; text-transform: uppercase; font-size: 0.8rem; letter-spacing: 1px; }
+        nav a:hover { color: #FFD700; }
         .hero { background: linear-gradient(rgba(0,45,98,0.8), rgba(0,45,98,0.8)), url('FFGChurch.jpg'); background-size: cover; background-position: center; color: white; text-align: center; padding: 100px 20px; }
         .hero h1 { font-size: 3rem; margin: 0; color: #FFD700; text-transform: uppercase; }
         .main-content { max-width: 1000px; margin: -50px auto 40px; padding: 0 20px; }
         .video-wrapper { background: white; padding: 15px; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.2); }
         .video-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 8px; }
         .video-container iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
-        .section { padding: 80px 20px; max-width: 1000px; margin: 0 auto; }
+        .section { padding: 80px 20px; max-width: 1000px; margin: 0 auto; text-align: center; }
         .flex-row { display: flex; flex-wrap: wrap; align-items: center; gap: 40px; text-align: left; }
         .btn-gold { background-color: #FFD700; color: #002D62; padding: 15px 40px; text-decoration: none; font-weight: bold; border-radius: 50px; display: inline-block; transition: 0.3s; }
+        .family-img { width: 100%; max-width: 800px; border-radius: 15px; box-shadow: 0 10px 20px rgba(0,0,0,0.1); border: 5px solid white; }
         footer { background: #1a1a1a; color: #888; padding: 40px 20px; text-align: center; font-size: 0.9rem; }
     </style>
 </head>
@@ -26,6 +28,7 @@
         <nav>
             <a href="#">Home</a>
             <a href="#about">Meet Pastor</a>
+            <a href="#family">Our Family</a>
             <a href="#give">Give</a>
         </nav>
     </header>
@@ -51,14 +54,19 @@
             <div style="flex: 1.5; min-width: 300px;">
                 <h2 style="color: #002D62; font-size: 2rem;">Meet Pastor David Hyatt Sr.</h2>
                 <p style="line-height: 1.8; font-size: 1.1rem; color: #444;">Pastor David Hyatt Sr. is dedicated to building a solid foundation on God's Word. With an engineering background and a heart for service in the Latta community, he leads Floydale with truth and conviction.</p>
-                <p style="font-style: italic; font-weight: bold; color: #002D62; font-size: 1.2rem; margin-top: 20px;">"But as for me and my house, we will serve the Lord."<br><span style="font-weight: normal; font-size: 1rem; color: #666;">— Joshua 24:15</span></p>
             </div>
         </div>
     </section>
 
-    <section id="give" class="section" style="text-align: center; background-color: #fff; border-top: 1px solid #eee;">
+    <section id="family" class="section" style="background-color: #f0f4f8;">
+        <h2 style="color: #002D62;">Our Family</h2>
+        <p style="margin-bottom: 30px; font-size: 1.1rem;">Ministry starts at home. We are blessed to serve the Lord together as a family.</p>
+        <img src="OurChildren.jpg" alt="The Hyatt Children" class="family-img">
+        <p style="font-style: italic; font-weight: bold; color: #002D62; font-size: 1.2rem; margin-top: 30px;">"But as for me and my house, we will serve the Lord."<br><span style="font-weight: normal; font-size: 1rem; color: #666;">— Joshua 24:15</span></p>
+    </section>
+
+    <section id="give" class="section" style="text-align: center; background-color: #fff;">
         <h2 style="color: #002D62;">Support Our Mission</h2>
-        <p style="margin-bottom: 30px; color: #666;">Your generosity helps us continue sharing the Gospel.</p>
         <a href="https://cash.app/$PastorHyatt08" target="_blank" class="btn-gold">GIVE VIA CASH APP</a>
     </section>
 
